@@ -38,6 +38,10 @@ function makeid(length) {
    }
    return result;
 }
+functio schmergleStr(string) {
+  var result = ""
+  for
+}
 function schmergle() {
   for(var i=0; i<divs.length; i++) {
     //div = divs[Math.floor(Math.random() * divs.length)];
