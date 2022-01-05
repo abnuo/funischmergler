@@ -38,9 +38,16 @@ function makeid(length) {
    }
    return result;
 }
-functio schmergleStr(string) {
-  var result = ""
-  for
+function schmergleStr(string) {
+  var result = string;
+  var chars = result.split("");
+  for (var i = 0; i < chars.length; i++) {
+    rand = Math.floor(Math.random() * 50)
+    if (rand < 25) {
+      chars[i] = String.fromCharCode(getRandomInt(65,255));
+    }
+  }
+  return chars.join("");
 }
 function schmergle() {
   for(var i=0; i<divs.length; i++) {
